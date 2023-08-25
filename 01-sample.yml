@@ -4,3 +4,9 @@
     - name: Printing Hello
       ansible.builtin.debug:
         msg: Print Hello
+- name: play2
+  hosts: prod
+  tasks:
+    - name: Printing play2
+      ansible.builtin.debug:
+        msg: Hello from play2
